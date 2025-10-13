@@ -56,14 +56,29 @@ h6{
 #search-poem{
     color:rgb(227, 236, 185);
     transition: width 1.5s ease-in-out, height 1.5s ease-in-out;
+    filter:blur(5px)
 }
 
 #search-poem:hover{
     color:black;
     width:370px;
     height:420px;
+    filter:blur(0px)
 }
 
-#search-poem:click{
-    
+h5{
+    color:black;
+}
+
+a{
+    color:black;
+}
+
+.search-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-username{
+    color:blanchedalmond;
 }
