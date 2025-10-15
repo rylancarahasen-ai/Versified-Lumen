@@ -86,8 +86,8 @@ a{
 
 .search-group{
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
     margin: 0;
     padding: 20px;
 }
@@ -112,5 +112,6 @@ h2{
 }
 
 #add-rec{
-    
+    text-align:center;
+    font-size:50px;
 }
